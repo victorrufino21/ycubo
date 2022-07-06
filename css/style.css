@@ -9,22 +9,21 @@ main{
     position: relative
 }    
 
-.menu-principal{
-    width: 100%;
-    background-color: rgb(83, 163, 255);
-    height: 60px;
-}
-
 .logo{
-    width: 150px;
-    float: left;
+    width: 1000px;
     display: block;
     margin-right: auto;
+    margin-top: 100px;
     padding: 11px;
 }
 
 .redes-sociais ul li{
     display: inline-block;
-    width: 30px;
+    width: 100px;
+    margin-left: 30px;
     list-style: none;
+}
+
+.redes-sociais{
+    margin-left: 250px;
 }
