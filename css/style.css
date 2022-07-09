@@ -39,6 +39,12 @@ h1{
     border-radius: 20px;
 }
 
+lottie-player{
+    background: fixed;
+    width: 300px;
+    
+}
+
 @media only screen and (max-width: 950px){
     .logo{
         width: 80%;
