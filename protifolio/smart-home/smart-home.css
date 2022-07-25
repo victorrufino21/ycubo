@@ -1,6 +1,6 @@
 
 :root{
-    --color-primary: #a91efa;
+    --color-primary: #1e5afa;
     --color-primary-variant: rgba(0, 0, 240, 0.2);
     --color-white: #fff;
     --color-light: #f4f4f4;
@@ -68,7 +68,7 @@ h3{
 }
 
 a{
-    /*color: var(--color-white);*/
+    color: var(--color-white);
     font-weight: 300;
 }
 
@@ -113,3 +113,42 @@ section{
 
 /* Navbar */
 
+nav{
+    width: 100vw;
+    height: 6rem;
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: var(--color-primary);
+}
+
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav button{
+    display: none;
+}
+
+.nav_items{
+    display: flex;
+    gap: 3rem;
+}
+
+.nav_logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav_signin-signup{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
