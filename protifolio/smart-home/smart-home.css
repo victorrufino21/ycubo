@@ -36,7 +36,7 @@ body{
     color: var(--color-dark);
     line-height: 1.7;
     background: var(--color-white);
-    background: rgb(83, 129, 255);
+    
 }
 
 .container{
@@ -170,11 +170,11 @@ header{
 
 .header_title{
     padding-top: 12rem;
-    color: var(--color-white);
+    color: var(--color-primary);
 }
 
 header p{
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.8);
     margin-bottom: 0;
 }
 
@@ -214,6 +214,7 @@ header p{
 }
 
 .header_socials{
+    
     position: absolute;
     left: 3rem;
     top: 38%;
@@ -221,6 +222,7 @@ header p{
     flex-direction: column;
     gap: 1.5rem;
     font-size: 1.8rem;
+    
 }
 
 .header_decorator-1{
