@@ -39,6 +39,12 @@ h1{
     border-radius: 20px;
 }
 
+.texto-footer{
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Sans, sans-serif';
+}
+
 @media only screen and (max-width: 950px){
     .logo{
         width: 80%;
