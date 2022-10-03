@@ -39,6 +39,15 @@ h1{
     border-radius: 20px;
 }
 
+.mail{
+    width: 100px
+}
+
+.mail:hover{
+    background: gray;
+    border-radius: 20px;
+}
+
 .texto-footer{
     display: flex;
     justify-content: center;
